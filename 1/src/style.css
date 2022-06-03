@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #282D35;
 }
 
 nav {
@@ -15,16 +17,53 @@ nav {
   padding: 30px 25px;
 }
 
-nav > h3, nav > h4 {
+.nav--logo_text, .nav--title {
   margin: 0;
 }
 
-nav > h3 {
+.nav--logo_text {
   margin-right: auto;
   color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
 }
 
-nav > img {
+.nav--title {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+.nav--icon {
   height: 30px;
   margin-right: 7px;
+}
+
+main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url(./images/reactjs-icon\ 2icon.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
