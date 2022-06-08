@@ -49,6 +49,7 @@ export default [
             reviewCount: 21
         },
         location: "Serbia",
-        openSpots: 5,
+        openSpots: 0,
     }
+
 ]
